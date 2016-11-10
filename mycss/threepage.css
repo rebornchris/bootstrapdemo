@@ -1,0 +1,23 @@
+#threepage{
+    width:100%;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+
+#threepage hr{
+    font-size: 1.5em;
+    width:50px;
+}
+
+.progress {
+    height: 40px;
+}
+
+.tp{
+    text-align:left;
+}
+
+.progress-bar {
+    font-size: 14px;
+    line-height: 40px;
+}

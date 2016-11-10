@@ -1,0 +1,23 @@
+#fourpage{
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+.btn-skin {
+    color: #fff;
+    background-color: #E3E142;
+    border-color: #E3E142;
+}
+
+.sbg{
+    background: #f9f9f9;
+}
+
+.service-box {
+    background: #fff;
+    border: 1px solid #f7f7f7;
+    padding: 20px;
+}
+
+#fourpage h5{
+    font-size: 24px;
+}

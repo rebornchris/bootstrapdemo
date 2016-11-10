@@ -1,0 +1,73 @@
+.center{
+    text-align:center;
+}
+
+#threepage,#fourpage,#sixpage,#wupage{
+    padding-top: 150px;
+    padding-bottom: 110px;
+    display: block;
+    position: relative;
+    z-index: 120;
+    opacity: 0;
+}
+
+.page-header h2{
+    font-size: 48px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.page-header p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+form#contact-form input, form#contact-form select, form#contact-form textarea {
+    font-size: 18px;
+    line-height: 1.6em;
+    border: 1px solid #eee;
+    margin-top:20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+#owl-demo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#owl-demo .item {
+    display: block;
+    margin: 5px;
+}
+#owl-demo img {
+    display: block;
+    width: 100%;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#footer{
+    padding: 50px 0;
+    background:#404040;
+    color:#fff;
+}
+
+#footer a.totop {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#footer span{
+    color:yellow;
+}

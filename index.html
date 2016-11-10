@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="mycss/index.css">
+    <link rel="stylesheet" href="mycss/onepage.css">
+    <link rel="stylesheet" href="mycss/nav.css">
+    <link rel="stylesheet" href="mycss/threepage.css">
+    <link rel="stylesheet" href="mycss/fourpage.css">
+    <link rel="stylesheet" href="mycss/animate.css">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        ol li .active {
+            background: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--轮播-->
+    <div id="onepage">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active bgdiv" style="background-image: url(images/one1.jpg);">
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12">
+                            <h2>
+                            <span>WELCOME TO SHUFFLE</span>
+                        </h2>
+                            <br>
+
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <br>
+
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#about">About us</a>
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#works">Our works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bgdiv" style="background-image: url(images/one2.jpg);">
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12">
+                            <h2>
+                            <span>AWESOME BOOTSTRAP TEMPLATE</span>
+                        </h2>
+                            <br>
+
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <br>
+
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#about">About us</a>
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#works">Our works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bgdiv" style="background-image: url(images/one3.jpg);">
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12">
+                            <h2>
+                            <span>USE WITHOUT ANY CHARGE</span>
+                        </h2>
+                            <br>
+
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <br>
+
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#about">About us</a>
+                                <a class="btn btn-theme btn-sm btn-min-block" href="#works">Our works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+    <div id="twopage">
+        <!--导航部分-->
+        <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 92px;">
+            <div id="navigation">
+                <nav class="navbar navbar-custom" role="navigation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="site-logo">
+                                    <a href="index.html" class="brand">Shuffle</a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-10">
+
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="menu">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a href="#onepage">Home</a></li>
+                                        <li><a href="#threepage">About Us</a></li>
+                                        <li><a href="#fourpage">Services</a></li>
+                                        <li><a href="#wupage">Works</a></li>
+
+                                        <li><a href="#sixpage">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.Navbar-collapse -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="threepage" class="center">
+        <div class="container">
+            <div class="page-header">
+                <h2>ABOUT</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/three.jpg">
+                </div>
+                <div class="col-md-6">
+                    <p class="tp">Graeco voluptua sed ea, malorum quaeque cotidieque per eu, quo id possit dissentias.</p>
+
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            40% - eCommerce
+                        </div>
+                    </div>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                            20% - Ruby
+                        </div>
+                    </div>
+
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                            60% - User interface
+                        </div>
+                    </div>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            80% - WordPress
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SERVICES-->
+    <div id="fourpage" class="center sbg">
+        <div class="page-header">
+            <h2>SERVICES</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</p>
+        </div>
+        <br>
+
+        <div class="center" id="AS">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3" id="left">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <span class="fa fa-cogs fa-5x"></span>
+                            </div>
+                            <div class="service-desc">
+                                <h5>Web Design</h5>
+
+                                <p>
+                                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
+                                </p>
+                                <a href="#" class="btn btn-skin">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3" id="up1">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <span class="fa fa-camera fa-5x"></span>
+                            </div>
+                            <div class="service-desc">
+                                <h5>Photography</h5>
+
+                                <p>
+                                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
+                                </p>
+                                <a href="#" class="btn btn-skin">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3" id="up2">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <span class="fa fa-laptop fa-5x"></span>
+                            </div>
+                            <div class="service-desc">
+                                <h5>Graphic design</h5>
+
+                                <p>
+                                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
+                                </p>
+                                <a href="#" class="btn btn-skin">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3" id="right">
+
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <span class="fa fa-mobile-phone fa-5x"></span>
+                            </div>
+                            <div class="service-desc">
+                                <h5>Mobile apps</h5>
+
+                                <p>
+                                    Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
+                                </p>
+                                <a href="#" class="btn btn-skin">Learn more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="wupage" class="center">
+        <div class="page-header">
+            <h2>PORTFOLIO</h2>
+            <hr>
+            <h3>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</h3>
+        </div>
+        <!--轮播-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="owl-demo" class="owl-carousel">
+                        <a class="item img-responsive"><img src="images/1.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/2.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/3.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/4.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/5.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/6.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/7.jpg" alt=""></a>
+                        <a class="item img-responsive"><img src="images/8.jpg" alt=""></a>
+                    </div>
+                    <div class="owl-controls clickable">
+                        <div class="owl-pagination">
+                            <div class="owl-page active"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sixpage" class="center sbg">
+        <div class="page-header">
+            <h2>CONTACT US</h2>
+            <hr>
+            <h3>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</h3>
+            <br>
+        </div>
+        <div class="container">
+
+            <div class="row marginbot-80">
+                <div class="col-md-8 col-md-offset-2">
+                    <form id="contact-form">
+                        <div class="row marginbot-20">
+                            <div class="col-md-6 xs-marginbot-20">
+                                <input type="text" class="form-control input-lg" id="name" placeholder="Enter name" required="required">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control input-lg" id="email" placeholder="Enter email" required="required">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" id="subject" placeholder="Subject" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+                                Send Message
+                            </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="center">
+        <a href="#onepage" class="totop"><i class="fa fa-angle-up  fa-3x"></i></a>
+
+        <p>Valera, Inc. 795 Folsom Ave, Suite 600 San Francisco, CA 94107
+            <br>©Copyright 2014 - Shuffle. Designed by <span>Bootstraptaste</span></p>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="myjs/index.js"></script>
+
+    <script>
+        //    轮播
+        $(function() {
+            //bootstrap
+            $('.carousel').carousel({
+                interval: 3000
+            });
+            //owl carousel
+            $('#owl-demo').owlCarousel({
+                items: 4,
+                itemsDesktop: [1199, 5],
+                itemsDesktopSmall: [980, 5],
+                itemsTablet: [768, 5],
+                itemsTabletSmall: [550, 2],
+                itemsMobile: [480, 2],
+                pagination: true
+            });
+        });
+    </script>
+</body>
+
+</html>
